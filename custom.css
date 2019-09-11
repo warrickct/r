@@ -1,0 +1,54 @@
+* { background-color: rgba(255,0,0,.2); }
+* * { background-color: rgba(0,255,0,.2); }
+* * * { background-color: rgba(0,0,255,.2); }
+* * * * { background-color: rgba(255,0,255,.2); }
+* * * * * { background-color: rgba(0,255,255,.2); }
+* * * * * * { background-color: rgba(255,255,0,.2); }
+* * * * * * * { background-color: rgba(255,0,0,.2); }
+* * * * * * * * { background-color: rgba(0,255,0,.2); }
+* * * * * * * * * { background-color: rgba(0,0,255,.2); }
+
+.section {
+    padding: 0.5em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-grow: space-between;
+    justify-content: space-evenly;
+}
+
+.contact__detail {
+    padding: 1em;
+}
+
+.job {
+    display: flex;
+    flex-direction: row;
+    flex-grow: space-between;
+}
+
+.job__title {
+    padding:1em;
+    white-space: nowrap;
+}
+
+.job__description {
+    padding: 0.2em;
+}
+
+.project__title {
+    padding: 1em;
+    white-space: nowrap;
+}
+
+
+.project__description {
+    padding: 0.2em;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+}
