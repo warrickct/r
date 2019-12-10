@@ -3,8 +3,7 @@ Use the following CSS rules to specify these families:
 
 font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif; */
-
-* { background-color: rgba(255,0,0,.2); }
+/* * { background-color: rgba(255,0,0,.2); }
 * * { background-color: rgba(0,255,0,.2); }
 * * * { background-color: rgba(0,0,255,.2); }
 * * * * { background-color: rgba(255,0,255,.2); }
@@ -12,11 +11,9 @@ font-family: 'Lato', sans-serif; */
 * * * * * * { background-color: rgba(255,255,0,.2); }
 * * * * * * * { background-color: rgba(255,0,0,.2); }
 * * * * * * * * { background-color: rgba(0,255,0,.2); }
-* * * * * * * * * { background-color: rgba(0,0,255,.2); }
-
+* * * * * * * * * { background-color: rgba(0,0,255,.2); } */
 body {
   font-family: "Droid Sans Mono";
-  font-family: "Roboto", sans-serif;
 }
 
 .section {
@@ -25,34 +22,42 @@ body {
 }
 
 .section--centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .banner__title {
-  /* font-family: 'Berkshire Swash', cursive; */
   font-family: "Droid Sans Mono";
   font-size: 3em;
 }
 
 .section__title {
   margin: auto;
-  /* font-family: 'Lato', sans-serif; */
   font-family: "Droid Sans Mono";
 }
 
 .section-body {
-  font-family: "Roboto", sans-serif;
   font-family: "Droid Sans Mono";
-  /* font-style: normal;
-font-weight: 400; */
 }
 
 .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-grow: space-between;
-  justify-content: space-evenly;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: space-between;
+      -ms-flex-positive: space-between;
+          flex-grow: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .contact__detail {
@@ -61,15 +66,22 @@ font-weight: 400; */
 }
 
 .job {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  flex-grow: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-flex: space-between;
+      -ms-flex-positive: space-between;
+          flex-grow: space-between;
 }
 
 .job__title {
-  /* padding:1em; */
   white-space: nowrap;
-  flex-basis: 20%;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
 
 .job__description {
@@ -77,9 +89,9 @@ font-weight: 400; */
 }
 
 .project__title {
-  /* padding: 1em; */
   white-space: nowrap;
-  flex-basis: 20%;
+  -ms-flex-preferred-size: 20%;
+      flex-basis: 20%;
 }
 
 .project__description {
@@ -87,6 +99,12 @@ font-weight: 400; */
 }
 
 .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+/*# sourceMappingURL=custom.css.map */
