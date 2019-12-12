@@ -4,6 +4,7 @@ $default-font: "Droid Sans Mono";
 $text-colour: rgba(0, 0, 0, 0.6);
 $heading-colour: rgba(0, 0, 0, 1);
 $text-pale: rgba(0, 0, 0, 0.3);
+$background-color: rgb(61, 61, 61);
 
 // * * { background-color: rgba(255,0,0,.2); }
 // * * { background-color: rgba(0,255,0,.2); }
@@ -25,6 +26,7 @@ body {
   font-family: $default-font;
   color: $text-colour;
   font-size: 0.9rem;
+  // background-color: $background-color;
 }
 
 .section {
