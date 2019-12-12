@@ -112,8 +112,10 @@ $subsection2-colour: rgba(0, 0, 0, 0.7);
   flex-basis: 20%;
 }
 
+$default-indent: 2rem;
+
 .project__description {
-  padding: 0.2em;
+  margin-left: $default-indent;
 }
 
 .project {
@@ -139,7 +141,6 @@ $subsection2-colour: rgba(0, 0, 0, 0.7);
 }
 
 .job__date {
-
   color: $subsection2-colour;
 }
 
@@ -211,3 +212,16 @@ $subsection2-colour: rgba(0, 0, 0, 0.7);
 //     color: black;
 //   }
 // }
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+$text-pale: rgba(0, 0, 0 ,0.3);
+
+.project__skills {
+  color: $text-pale;
+  margin-left: $default-indent;
+}

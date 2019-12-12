@@ -108,7 +108,7 @@ h4 {
 }
 
 .project__description {
-  padding: 0.2em;
+  margin-left: 2rem;
 }
 
 .project {
@@ -170,5 +170,21 @@ h4 {
 
 .interests__title {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1.5rem 0;
+}
+
+.project__skills {
+  color: rgba(0, 0, 0, 0.3);
+  margin-left: 2rem;
 }
 /*# sourceMappingURL=custom.css.map */
