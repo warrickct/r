@@ -172,6 +172,30 @@ h4 {
   color: rgba(0, 0, 0, 0.7);
 }
 
+.blinking-cursor {
+  font-weight: bold;
+  -webkit-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from, to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
 .project {
   display: -webkit-box;
   display: -ms-flexbox;
