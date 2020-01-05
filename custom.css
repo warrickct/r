@@ -4,10 +4,13 @@ Use the following CSS rules to specify these families:
 font-family: 'Roboto', sans-serif;
 font-family: 'Lato', sans-serif; */
 body {
-  margin: 1rem 4rem;
   font-family: "Droid Sans Mono";
   color: rgba(0, 0, 0, 0.6);
   font-size: 0.9rem;
+
+  width: 21cm;
+  height: 29.7cm;
+  margin: 30mm 45mm 30mm 45mm; 
 }
 
 .section {
