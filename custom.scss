@@ -1,3 +1,4 @@
+$default-indent: 2rem;
 $subsection-colour: rgba(0, 0, 0, 0.85);
 $subsection2-colour: rgba(0, 0, 0, 0.7);
 $default-font: "Droid Sans Mono";
@@ -25,7 +26,7 @@ font-family: 'Lato', sans-serif; */
 body {
   font-family: $default-font;
   color: $text-colour;
-  font-size: 0.9rem;
+  font-size: 11pt;
   // background-color: $background-color;
 }
 
@@ -49,6 +50,8 @@ body {
   // margin: auto;
   font-family: $default-font;
   color: $heading-colour;
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0;
 }
 
 .section-body {
@@ -63,7 +66,7 @@ body {
 }
 
 .contact__detail {
-  padding: 1em;
+  // padding: 1em;
   margin: auto;
 }
 
@@ -85,7 +88,11 @@ ul {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1.2rem;
 }
 
 .job__title {
@@ -108,7 +115,6 @@ h4 {
   flex-basis: 20%;
 }
 
-$default-indent: 2rem;
 
 .project__description {
   margin-left: $default-indent;
@@ -117,6 +123,7 @@ $default-indent: 2rem;
 .project {
   display: flex;
   flex-direction: row;
+  margin: 0 0 0.5rem 0;
 }
 
 .education {

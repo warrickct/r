@@ -6,11 +6,7 @@ font-family: 'Lato', sans-serif; */
 body {
   font-family: "Droid Sans Mono";
   color: rgba(0, 0, 0, 0.6);
-  font-size: 0.9rem;
-
-  width: 21cm;
-  height: 29.7cm;
-  margin: 30mm 45mm 30mm 45mm; 
+  font-size: 11pt;
 }
 
 .section {
@@ -36,6 +32,8 @@ body {
 .section__title {
   font-family: "Droid Sans Mono";
   color: black;
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0;
 }
 
 .section-body {
@@ -59,7 +57,6 @@ body {
 }
 
 .contact__detail {
-  padding: 1em;
   margin: auto;
 }
 
@@ -90,7 +87,11 @@ ul {
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1.2rem;
 }
 
 .job__title {
@@ -123,6 +124,7 @@ h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin: 0 0 0.5rem 0;
 }
 
 .education {
