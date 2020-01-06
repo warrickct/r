@@ -6,7 +6,7 @@ font-family: 'Lato', sans-serif; */
 body {
   font-family: "Droid Sans Mono";
   color: rgba(0, 0, 0, 0.6);
-  font-size: 11pt;
+  font-size: 10pt;
 }
 
 .section {
@@ -27,6 +27,7 @@ body {
   font-family: "Droid Sans Mono";
   color: black;
   font-size: 3em;
+  margin-top: 0rem;
 }
 
 .section__title {
@@ -91,7 +92,7 @@ h4 {
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .job__title {
@@ -120,11 +121,11 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  margin: 0 0 0.5rem 0;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 0.5rem;
 }
 
 .education {
@@ -202,17 +203,6 @@ h1 {
   50% {
     color: black;
   }
-}
-
-.project {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 1.5rem 0;
 }
 
 .project__skills {
