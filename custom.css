@@ -7,10 +7,11 @@ body {
   font-family: "Droid Sans Mono";
   color: rgba(0, 0, 0, 0.6);
   font-size: 10pt;
+  letter-spacing: 0.002rem;
 }
 
 .section {
-  padding: 0.5em;
+  padding: 0.3em;
   margin: auto;
 }
 
@@ -125,7 +126,7 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
 }
 
 .education {
