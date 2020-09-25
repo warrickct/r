@@ -1,7 +1,7 @@
 import React from 'react';
 import './experience.component.css'
 
-export function Experience() {
+export default function Experience() {
 
     return (
        <div className="section">

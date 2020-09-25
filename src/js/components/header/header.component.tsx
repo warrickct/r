@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.component.css'
 
-export function Header() {
+export default function Header() {
 
     return (
         <div className="section section--no-padding section--centered">

@@ -1,7 +1,7 @@
 import React from 'react';
 import './education.component.css'
 
-export function Education() {
+export default function Education() {
 
   return (
     <div className="section">
