@@ -29,3 +29,5 @@ export function Miscellaneous() {
     </div>
   )
 }
+
+export default Miscellaneous;

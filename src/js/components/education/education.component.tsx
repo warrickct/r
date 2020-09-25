@@ -1,7 +1,7 @@
 import React from 'react';
 import './education.component.css'
 
-export default function Education() {
+export function Education() {
 
   return (
     <div className="section">
@@ -22,3 +22,4 @@ export default function Education() {
     </div>
   )
 }
+export default Education;
