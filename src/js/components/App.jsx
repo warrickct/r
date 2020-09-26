@@ -7,6 +7,7 @@ import { Projects } from "./projects/projects.component.tsx";
 import { Education } from "./education/education.component.tsx";
 import { Miscellaneous } from "./miscellaneous/miscellaneous.component.tsx";
 import './../../custom.css';
+import './app.css';
 
 
 class App extends Component {
