@@ -1,4 +1,10 @@
-
 .app {
-    padding: 0% 20%;
+  padding: 0% 20%;
+}
+
+.app > * {
+  margin: 1rem;
+  /* background-color: #0064c288; */
+  border-radius: 5px;
+  padding: 2%;
 }
