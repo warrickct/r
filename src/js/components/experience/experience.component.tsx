@@ -1,38 +1,29 @@
 import React from 'react';
 import './experience.component.css'
+import { JobPosition } from "./jobPosition/jobRole.component";
 
 export function Experience() {
+
+  let positions = [
+    {
+      title: 'Solutions Analyst',
+      company: 'The University of Auckland',
+      date: '2018 Oct. - Mar. 2020',
+      description: [
+        "Full-stack development.",
+        "3D application and virtual reality development.",
+        "Collaborate with researchers to gather technical requirements and provide technical knowledge.",
+        "Lead and assist in software development workshops and training.",
+        "Showcase and represent technical demonstrations of projects created by the organisation.",
+        "Provide technical support to virtual machines and large data storage."
+      ]
+    }
+  ]
 
   return (
     <div className="section">
       <div id="experience-header" className="section__title">Experience</div>
-      <div className="section-body section-body--hidden">
-        <div className="job job__title">Solutions Analyst</div>
-        <div className="job job__company">Centre for eResearch</div>
-        <div className="job job__date">2018 Oct. - Present</div>
-        <div className="job job__description">
-          <ul>
-            <li>
-              Full-stack development.
-          </li>
-            <li>
-              3D Application and Virtual Reality development.
-          </li>
-            <li>
-              Collaborate with researchers to gather technical requirements and provide technical knowledge.
-          </li>
-            <li>
-              Lead and assist in software development workshops and training.
-          </li>
-            <li>
-              Showcase and represent technical demonstrations of projects created by the organisation.
-          </li>
-            <li>
-              Provide technical support to virtual machines and large data storage.
-          </li>
-          </ul>
-        </div>
-      </div>
+      <JobPosition {...positions[0]} />
       <div className="job">
         <div className="job job__title">eResearch IT Support</div>
         <div className="job job__company">Centre for eResearch</div>
