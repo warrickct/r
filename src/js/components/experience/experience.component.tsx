@@ -17,12 +17,11 @@ export function Experience() {
       company: 'The University of Auckland',
       date: '2020 Mar. - present',
       description: [
-        "Full-stack development.",
-        "Angular Web Application development.",
-        "Amazon Web Services development.",
-        "Cloud solutions architecture.",
-        "API & microservice development.",
-        "React Development."
+        "Angular front end development.",
+        "Amazon Web Services development and solution architecting.",
+        "API and microservice development.",
+        "Continuous Integration and deployment development.",
+        "React front end development."
       ]
     },
     {
