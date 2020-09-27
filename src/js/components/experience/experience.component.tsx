@@ -2,9 +2,29 @@ import React from 'react';
 import './experience.component.css'
 import { JobPosition } from "./jobPosition/jobRole.component";
 
+interface Position {
+  title: String,
+  company: String,
+  date: String,
+  description: Array<String>
+};
+
 export function Experience() {
 
-  let positions = [
+  let positionData = [
+    {
+      title: 'eResearch Engagement Specialist',
+      company: 'The University of Auckland',
+      date: '2020 Mar. - present',
+      description: [
+        "Full-stack development.",
+        "Angular Web Application development.",
+        "Amazon Web Services development.",
+        "Cloud solutions architecture.",
+        "API & microservice development.",
+        "React Development."
+      ]
+    },
     {
       title: 'Solutions Analyst',
       company: 'The University of Auckland',
@@ -17,31 +37,32 @@ export function Experience() {
         "Showcase and represent technical demonstrations of projects created by the organisation.",
         "Provide technical support to virtual machines and large data storage."
       ]
-    }
+    },
+    {
+      title: 'eResearch IT Support',
+      company: 'The University of Auckland',
+      date: 'eResearch IT Support',
+      description: [
+        "Assisted in the software development of various research projects.",
+        "Piloted software for researchers requiring assistance.",
+        "Provided assistance in teaching and workshops."
+      ]
+    },
   ]
+
+  const renderPositions = (positionsData: Array<Position>) => {
+    return positionsData.map(posData => {
+      console.log(posData);
+      return (
+        <JobPosition {...posData} />
+      )
+    })
+  }
 
   return (
     <div className="section">
       <div id="experience-header" className="section__title">Experience</div>
-      <JobPosition {...positions[0]} />
-      <div className="job">
-        <div className="job job__title">eResearch IT Support</div>
-        <div className="job job__company">Centre for eResearch</div>
-        <div className="job job__date">2017 Aug. - 2018 Oct.</div>
-        <div className="job job__description">
-          <ul>
-            <li>
-              Assisted in the software development of various research projects.
-          </li>
-            <li>
-              Piloted software for researchers requiring assistance.
-          </li>
-            <li>
-              Provided assistance in teaching and workshops.
-          </li>
-          </ul>
-        </div>
-      </div>
+      {renderPositions(positionData)}
     </div>
   )
 }
