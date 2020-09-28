@@ -5,15 +5,41 @@ import { Project } from "./project/project.component";
 interface ProjectProps {
   title: String,
   description: String,
-  skills: String
+  skills: String,
+  linkText?: String;
+  linkHref?: String;
 }
 
 export function Projects() {
 
   let projectsData = [
     {
+      title: 'ResearchHub',
+      description: "I am currently in the agile development team for the Univerity of Auckland's ResearchHub. My development work was focused on front-end development as well as migrating on-premises stack components to cloud technology.",
+      skills: "NodeJS, AWS, Cloud, APIs, Serverless, Jenkins, Angular, Git, Bash, HTML, CSS, EC2, S3, Lambda, API Gateway",
+      linkHref: "https://research-hub.auckland.ac.nz/#/home",
+      linkText: "ResearchHub"
+    },
+    {
+      title: '2FAB',
+      description: "Created an AWS Lambda function running a chrome webdriver to retrieve OAuth2.0 tokens. This allowed us to automate our workflow create integration tests for the ResearchHub and other applications within the University.",
+      skills: "NodeJS, AWS, APIs, Puppeteer, Serverless, ServiceNow, API Gateway",
+      linkHref: "https://research-hub.auckland.ac.nz/#/home",
+      linkText: "ResearchHub"
+    },
+    {
+      title: 'Serverless Now',
+      description: "Created an AWS Lambda function to transform and enrich tickets forwarded to ServiceNow",
+      skills: "NodeJS, AWS, APIs, Serverless, ServiceNow, API Gateway"
+    },
+    {
+      title: 'MyTardis',
+      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform. I also co-hosted a sprint to create a high fidelity prototype for the front-end design.",
+      skills: "NodeJS, Django, React, front-end, sprint"
+    },
+    {
       title: 'eDNA Virtual Hub',
-      description: "Developed a web application and back end built to visualize eDNA data from samples collected across New Zealand.",
+      description: "I developed a web application and back end built to visualize eDNA data from samples collected across New Zealand.",
       skills: "NodeJS, Cypress, Git, SQL, Python, Django, Docker, Bash, HTML, CSS, Nectar"
     },
     {
