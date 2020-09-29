@@ -45,7 +45,7 @@ export function Projects() {
       title: 'eDNA Virtual Hub',
       description: "I developed a web application and back end built to visualize eDNA data from samples collected across New Zealand.",
       skills: "NodeJS, Cypress, Git, SQL, Python, Django, Docker, Bash, HTML, CSS, Nectar",
-      linkHref: "uoa-eresearch.github.io/edna/",
+      linkHref: "https://uoa-eresearch.github.io/edna/",
       linkText: "eDNA link"
     },
     {
