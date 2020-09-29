@@ -26,6 +26,11 @@
     font-size: 0.8rem;
   }
 
+  .section {
+    padding: 0.2em;
+    margin: auto;
+  }
+
   .section--centered {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -33,6 +38,17 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .section__title {
+    font-family: "Droid Sans Mono";
+    color: black;
+    font-size: 1.2rem;
+    margin: 0 0 0.2rem 0;
+  }
+
+  .section-body {
+    font-family: "Droid Sans Mono";
   }
 }
 
