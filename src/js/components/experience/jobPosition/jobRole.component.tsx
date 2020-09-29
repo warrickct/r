@@ -25,9 +25,11 @@ export const JobPosition = (props: Props) => {
 
   return (
     <div className={styles.job}>
-      <div className={styles.job_title}>{title}</div>
-      <div className={styles.job_company}>{company}</div>
-      <div className={styles.job_date}>{date}</div>
+      <div className={styles.jobDetail___left}>
+        <div className={styles.job_title}>{title}</div>
+        <div className={styles.job_company}>{company}</div>
+        <div className={styles.job_date}>{date}</div>
+      </div>
       <div className={styles.job_description}>
         <ul>
           {descriptionBullets(description)}

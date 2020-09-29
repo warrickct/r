@@ -1,9 +1,19 @@
 .job {
   display: flex;
-  flex-direction: column;
+  @media (min-width: 1300px) {
+    flex-direction: row;
+  }
   flex-grow: space-between;
-  align-items: flex-start;
+  align-items: stretch;
+  justify-content: space-between;
   font-family: "Droid Sans Mono";
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+  .job {
+    flex-direction: column;
+  }
 }
 
 .job_title {
@@ -18,4 +28,21 @@
 
 .job_date {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.job_description {
+  margin-top: 0;
+  padding-top: 0;
+  // background-color: blue;
+  vertical-align: top;
+  width: 70%;
+
+  ul {
+    // background-color: red;
+    margin-top: 0;
+  }
+}
+
+.jobDetail___left {
+  width: 30%;
 }
