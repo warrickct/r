@@ -54,9 +54,10 @@ export function Projects() {
     }
   ]
 
+
   const renderProjects = (projectsData: Array<ProjectProps>) => {
-    return projectsData.map(project => {
-      return <Project {...project} />;
+    return projectsData.map((project, index) => {
+      return <Project key={index} {...project} />;
     })
   }
 

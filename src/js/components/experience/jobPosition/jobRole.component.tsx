@@ -14,9 +14,9 @@ export const JobPosition = (props: Props) => {
   const { title, company, date, description } = props;
 
   const descriptionBullets = (description: Array<String>) => {
-    return description.map(string => {
+    return description.map((string, index) => {
       return (
-        <li>
+        <li key={index}>
           {string}
         </li>
       )

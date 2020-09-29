@@ -50,10 +50,9 @@ export function Experience() {
   ]
 
   const renderPositions = (positionsData: Array<Position>) => {
-    return positionsData.map(posData => {
-      console.log(posData);
+    return positionsData.map((posData, index) => {
       return (
-        <JobPosition {...posData} />
+        <JobPosition key={index} {...posData} />
       )
     })
   }
