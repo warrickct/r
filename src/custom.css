@@ -107,26 +107,7 @@ h1 {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.project__title {
-  white-space: nowrap;
-  -ms-flex-preferred-size: 20%;
-  flex-basis: 20%;
-}
 
-.project__description {
-  margin-left: 2rem;
-}
-
-.project {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  margin-bottom: 0.3rem;
-}
 
 .education {
   display: -webkit-box;
@@ -205,7 +186,3 @@ h1 {
   }
 }
 
-.project__skills {
-  color: rgba(0, 0, 0, 0.3);
-  margin-left: 2rem;
-}
