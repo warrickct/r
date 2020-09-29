@@ -4,6 +4,12 @@
   justify-content: space-evenly;
 }
 
+@media screen and (max-width: 1200px) {
+  .contact {
+    flex-direction: column;
+  }
+}
+
 .contact_detail {
   margin: auto;
 }

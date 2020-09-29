@@ -59,7 +59,7 @@ export function Experience() {
 
   return (
     <div className="section">
-      <div id="experience-header" className={styles.section_title}>Experience</div>
+      <div id="experience-header" className={styles.section_title}>Work Experience</div>
       {renderPositions(positionData)}
     </div>
   )

@@ -14,6 +14,17 @@
   .job {
     flex-direction: column;
   }
+
+  .job_description {
+    margin-top: 0;
+    padding-top: 0;
+    vertical-align: top;
+    width: 100%;
+  }
+
+  .jobDetail___left {
+    width: 100%;
+  }
 }
 
 .job_title {
@@ -33,12 +44,10 @@
 .job_description {
   margin-top: 0;
   padding-top: 0;
-  // background-color: blue;
   vertical-align: top;
   width: 70%;
 
   ul {
-    // background-color: red;
     margin-top: 0;
   }
 }

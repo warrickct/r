@@ -9,6 +9,12 @@
   letter-spacing: 0.002rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .app {
+    padding: 0% 5%;
+  }
+}
+
 .app > * {
   margin: 1rem;
   border-radius: 5px;
