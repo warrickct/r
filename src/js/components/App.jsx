@@ -6,8 +6,8 @@ import { Experience } from "./experience/experience.component.tsx";
 import { Projects } from "./projects/projects.component.tsx";
 import { Education } from "./education/education.component.tsx";
 import { Miscellaneous } from "./miscellaneous/miscellaneous.component.tsx";
-import './../../custom.css';
-import './app.css';
+// import './../../custom.css';
+import styles from './app.module.scss';
 
 
 class App extends Component {
@@ -32,7 +32,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="app">
+      <div className={styles.app}>
         <Header />
         <Contact />
         <Experience />

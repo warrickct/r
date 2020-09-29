@@ -17,6 +17,14 @@ module.exports = {
                 exclude: /node_modules/,
             },
             {
+                test: /\.module\.s(a|c)ss$/,
+                use: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.s[ac]ss$/i,
+                use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader?modules'],
             },
@@ -31,7 +39,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js'],
+        extensions: ['.tsx', '.ts', '.js', '.css', '.scss'],
         modules: [
             'node_modules'
         ]

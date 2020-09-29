@@ -77,23 +77,7 @@ body {
   align-items: flex-start;
 }
 
-h5 {
-  font-size: 1rem;
-  margin-top: 0em;
-  margin-bottom: 0.2rem;
-}
 
-ul {
-  margin-top: 0rem;
-}
-
-h4 {
-  font-size: 0.8rem;
-}
-
-h1 {
-  font-size: 1rem;
-}
 
 .job__title {
   white-space: nowrap;
