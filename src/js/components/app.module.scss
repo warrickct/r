@@ -8,10 +8,6 @@
   font-size: 10pt;
   letter-spacing: 0.002rem;
 
-  h1 {
-    font-size: 1rem;
-  }
-
   h5 {
     font-size: 1rem;
     margin-top: 0em;
@@ -49,6 +45,22 @@
 
   .section-body {
     font-family: "Droid Sans Mono";
+  }
+
+  .job__date {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .education__title {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .skills__title {
+    color: rgba(0, 0, 0, 0.7);
+  }
+
+  .interests__title {
+    color: rgba(0, 0, 0, 0.7);
   }
 }
 

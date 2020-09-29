@@ -1,0 +1,39 @@
+.banner__title {
+  font-family: "Droid Sans Mono";
+  color: black;
+  font-size: 3em;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.blinkingCursor {
+  font-weight: bold;
+  -webkit-animation: 1s blink step-end infinite;
+  animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
+@-webkit-keyframes "blink" {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: black;
+  }
+}
+
