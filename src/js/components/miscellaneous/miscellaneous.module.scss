@@ -1,0 +1,45 @@
+.misc_header {
+  font-family: "Droid Sans Mono";
+  color: black;
+  font-size: 1.2rem;
+  margin: 0 0 0.2rem 0;
+}
+
+.misc {
+  padding: 0.2em;
+  margin: auto;
+}
+
+.misc_body {
+  font-family: "Droid Sans Mono";
+}
+
+.misc___left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.misc_details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.misc_title {
+  color: rgba(0, 0, 0, 0.7);
+}

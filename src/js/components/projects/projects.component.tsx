@@ -1,5 +1,5 @@
 import React from 'react';
-import './projects.component.css'
+import styles from './projects.module.scss';
 import { Project } from "./project/project.component";
 
 interface ProjectProps {
@@ -62,9 +62,9 @@ export function Projects() {
   }
 
   return (
-    <div className="section">
-      <div id="projects-title" className="section__title">Projects</div>
-      <div className="section-body">
+    <div className={styles.project}>
+      <div id="projects-title" className={styles.project_title}>Projects</div>
+      <div className={styles.project_body}>
         {renderProjects(projectsData)}
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { title } from 'process';
 import React from 'react';
-import './jobRole.css'
+import styles from './jobRole.module.scss';
 
 interface Props {
   title: String,
@@ -24,11 +24,11 @@ export const JobPosition = (props: Props) => {
   }
 
   return (
-    <div className="section-body section-body--hidden">
-      <div className="job job__title">{title}</div>
-      <div className="job job__company">{company}</div>
-      <div className="job job__date">{date}</div>
-      <div className="job job__description">
+    <div className={styles.job}>
+      <div className={styles.job_title}>{title}</div>
+      <div className={styles.job_company}>{company}</div>
+      <div className={styles.job_date}>{date}</div>
+      <div className={styles.job_description}>
         <ul>
           {descriptionBullets(description)}
         </ul>

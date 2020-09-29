@@ -1,5 +1,5 @@
 import React from 'react';
-import './experience.component.css'
+import styles from './experience.module.scss'
 import { JobPosition } from "./jobPosition/jobRole.component";
 
 interface Position {
@@ -40,7 +40,7 @@ export function Experience() {
     {
       title: 'eResearch IT Support',
       company: 'The University of Auckland',
-      date: 'eResearch IT Support',
+      date: 'Aug. 2017 - Oct. 2018',
       description: [
         "Assisted in the software development of various research projects.",
         "Piloted software for researchers requiring assistance.",
@@ -59,7 +59,7 @@ export function Experience() {
 
   return (
     <div className="section">
-      <div id="experience-header" className="section__title">Experience</div>
+      <div id="experience-header" className={styles.section_title}>Experience</div>
       {renderPositions(positionData)}
     </div>
   )

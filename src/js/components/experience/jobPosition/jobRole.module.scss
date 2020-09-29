@@ -1,0 +1,21 @@
+.job {
+  display: flex;
+  flex-direction: column;
+  flex-grow: space-between;
+  align-items: flex-start;
+  font-family: "Droid Sans Mono";
+}
+
+.job_title {
+  white-space: nowrap;
+  flex-basis: 30%;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.job_company {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.job_date {
+  color: rgba(0, 0, 0, 0.7);
+}

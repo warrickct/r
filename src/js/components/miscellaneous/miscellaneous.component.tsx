@@ -1,12 +1,12 @@
 import React from 'react';
-import './miscellaneous.component.css'
+import styles from './miscellaneous.module.scss'
 
 export function Miscellaneous() {
 
   return (
-    <div className="section">
-      <div id="skills-header" className="section__title">Skills && Interests</div>
-      <div className="skills">
+    <div className={styles.misc}>
+      <div id="skills-header" className={styles.misc_header}>Skills && Interests</div>
+      <div className={styles.misc_title}>
         <div className="skills__title">Skills</div>
         <ul>
           <li>
@@ -19,7 +19,7 @@ export function Miscellaneous() {
         </ul>
       </div>
       <div className="interests">
-        <div className="interests__title">Interests</div>
+        <div className={styles.misc_title}>Interests</div>
         <ul>
           <li>
             Photography, fishkeeping, guitar, fitness

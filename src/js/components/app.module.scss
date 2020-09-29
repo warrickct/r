@@ -7,61 +7,6 @@
   color: rgba(0, 0, 0, 0.6);
   font-size: 10pt;
   letter-spacing: 0.002rem;
-
-  h5 {
-    font-size: 1rem;
-    margin-top: 0em;
-    margin-bottom: 0.2rem;
-  }
-
-  ul {
-    margin-top: 0rem;
-  }
-
-  h4 {
-    font-size: 0.8rem;
-  }
-
-  .section {
-    padding: 0.2em;
-    margin: auto;
-  }
-
-  .section--centered {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
-
-  .section__title {
-    font-family: "Droid Sans Mono";
-    color: black;
-    font-size: 1.2rem;
-    margin: 0 0 0.2rem 0;
-  }
-
-  .section-body {
-    font-family: "Droid Sans Mono";
-  }
-
-  .job__date {
-    color: rgba(0, 0, 0, 0.7);
-  }
-
-  .education__title {
-    color: rgba(0, 0, 0, 0.7);
-  }
-
-  .skills__title {
-    color: rgba(0, 0, 0, 0.7);
-  }
-
-  .interests__title {
-    color: rgba(0, 0, 0, 0.7);
-  }
 }
 
 .app > * {

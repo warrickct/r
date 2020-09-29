@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './project.css';
+import styles from './project.module.scss';
 
 interface ProjectProps {
   title: String,
@@ -12,7 +12,7 @@ interface ProjectProps {
 const renderLink = (props: ProjectProps) => {
   if (props.linkHref) {
     return (
-      <div className={styles.project__link}><a href={ "" + props.linkHref }>{props.linkText}</a></div>
+      <div className={styles.project_link}><a href={ "" + props.linkHref }>{props.linkText}</a></div>
     )
   }
 }
@@ -22,9 +22,9 @@ export function Project(props: ProjectProps) {
 
   return (
     <div className={styles.project}>
-      <div className={styles.project__title}>{title}</div>
-      <div className={styles.project__description}>{description}</div>
-      <div className={styles.project__skills}>// {skills}</div>
+      <div className={styles.project_title}>{title}</div>
+      <div className={styles.project_description}>{description}</div>
+      <div className={styles.project_skills}>// {skills}</div>
       { renderLink(props )}
     </div>
   )
