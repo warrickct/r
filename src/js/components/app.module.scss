@@ -1,5 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto|Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
+
 .app {
   padding: 0% 20%;
+  font-family: "Droid Sans Mono";
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 10pt;
+  letter-spacing: 0.002rem;
 
   h1 {
     font-size: 1rem;
@@ -17,6 +24,15 @@
 
   h4 {
     font-size: 0.8rem;
+  }
+
+  .section--centered {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
 }
 
