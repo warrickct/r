@@ -57,7 +57,7 @@ export function Projects() {
     },
     {
       title: 'Peroxiredoxin Fishtank',
-      description: "On the development team for an interactive simulation of free radical accretion in peroxiredoxin-3 enzyme. This was VR application was used Jacinda Ardern when visiting our workplace and had a brief installation at Te Papa Mueseum.",
+      description: "On the development team for an interactive simulation of free radical accretion in peroxiredoxin-3 enzyme. This was VR application was used Jacinda Ardern when visiting our workplace and had a brief installation at Te Papa Museum.",
       skills: "C#, Unity, Git, HTC Vive, Oculus, Virtual Reality",
       linkHref: "https://www.eresearch.auckland.ac.nz/project/visualising-protein-interaction/",
       linkText: "Case study link"
