@@ -12,7 +12,7 @@ interface ProjectProps {
 const renderLink = (props: ProjectProps) => {
   if (props.linkHref) {
     return (
-      <div className={styles.project_link}><a href={ "" + props.linkHref }>{props.linkText}</a></div>
+      <div className={styles.project_link}><a href={"" + props.linkHref}>{props.linkText}</a></div>
     )
   }
 }
@@ -22,10 +22,12 @@ export function Project(props: ProjectProps) {
 
   return (
     <div className={styles.project}>
-      <div className={styles.project_title}>{title}</div>
+      <div className={styles.project_rowContainer}>
+        <div className={styles.project_title}>{title}</div>
+        {renderLink(props)}
+      </div>
       <div className={styles.project_description}>{description}</div>
       <div className={styles.project_skills}>// {skills}</div>
-      { renderLink(props )}
     </div>
   )
 }

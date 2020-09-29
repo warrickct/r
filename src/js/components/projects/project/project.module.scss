@@ -1,12 +1,10 @@
 
 .project_link {
-  margin-left: 2rem;
+  margin-left: 0.5rem;
 }
 
 .project_title {
   white-space: nowrap;
-  -ms-flex-preferred-size: 20%;
-  flex-basis: 20%;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -23,4 +21,9 @@
 .project_skills {
   color: rgba(0, 0, 0, 0.3);
   margin-left: 2rem;
+}
+
+.project_rowContainer {
+  display: flex;
+  flex-direction: row;
 }
