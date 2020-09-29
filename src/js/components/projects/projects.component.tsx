@@ -15,26 +15,26 @@ export function Projects() {
   let projectsData = [
     {
       title: 'ResearchHub',
-      description: "I am currently in the agile development team for the Univerity of Auckland's ResearchHub. My development work was focused on front-end development as well as migrating on-premises stack components to cloud technology.",
-      skills: "NodeJS, AWS, Cloud, APIs, Serverless, Jenkins, Angular, Git, Bash, HTML, CSS, EC2, S3, Lambda, API Gateway",
+      description: "Worked on the agile team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front end components. Helped to CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%",
+      skills: "NodeJS, AWS, Cloud, Rest APIs, Serverless, Jenkins, Angular, Git, Bash, EC2, S3, GraphQL, Contentful, Lambda, API Gateway",
       linkHref: "https://research-hub.auckland.ac.nz/#/home",
       linkText: "ResearchHub"
     },
     {
       title: '2FAB',
-      description: "Created an AWS Lambda function running a chrome webdriver to retrieve OAuth2.0 tokens. This allowed us to automate our workflow create integration tests for the ResearchHub and other applications within the University.",
+      description: "Created an microservice hosted on AWS Lambda to using Puppeteer retrieve OAuth2.0 tokens. This allowed us to automate our workflows create integration tests for the ResearchHub which were previously done manually making a GET request.",
       skills: "NodeJS, AWS, APIs, Puppeteer, Serverless, ServiceNow, API Gateway",
-      linkHref: "https://research-hub.auckland.ac.nz/#/home",
-      linkText: "ResearchHub"
+      linkHref: "https://github.com/UoA-eResearch/oauth-2fa-bypass",
+      linkText: "2FAB"
     },
     {
       title: 'Serverless Now',
-      description: "Created an AWS Lambda function to transform and enrich tickets forwarded to ServiceNow",
-      skills: "NodeJS, AWS, APIs, Serverless, ServiceNow, API Gateway"
+      description: "Created an AWS Lambda function intercept ServiceNow requests. The service modifies structure and augments with AWS Cognito user pool information before forwarding the ticket.",
+      skills: "NodeJS, AWS, APIs, Serverless, ServiceNow, API Gateway",
     },
     {
       title: 'MyTardis',
-      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform. I also co-hosted a sprint to create a high fidelity prototype for the front-end design.",
+      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-hosted a sprint to create a high fidelity prototype for the front-end design.",
       skills: "NodeJS, Django, React, front-end, sprint"
     },
     {

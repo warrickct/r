@@ -12,7 +12,7 @@ interface ProjectProps {
 const renderLink = (props: ProjectProps) => {
   if (props.linkHref) {
     return (
-      <div className="project__link"><a href="{props.linkHref}">{props.linkText}</a></div>
+      <div className="project__link"><a href={ "" + props.linkHref }>{props.linkText}</a></div>
     )
   }
 }
