@@ -3,6 +3,14 @@
   margin-left: 0.5rem;
 }
 
+.project_link a:link, a:visited, a:active {
+  color: #4a7bb4;
+}
+
+ .project_link a:hover {
+   color: orange;
+ }
+
 .project_title {
   white-space: nowrap;
   color: rgba(0, 0, 0, 0.85);
@@ -19,7 +27,7 @@
 }
 
 .project_skills {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.493);
   margin-left: 2rem;
 }
 

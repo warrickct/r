@@ -45,8 +45,8 @@ export function Projects() {
       title: 'eDNA Virtual Hub',
       description: "I developed a web application and back end built to visualize eDNA data from samples collected across New Zealand.",
       skills: "NodeJS, Cypress, Git, SQL, Python, Django, Docker, Bash, HTML, CSS, Nectar",
-      linkHref: "https://github.com/UoA-eResearch/edna",
-      linkText: "Github link"
+      linkHref: "uoa-eresearch.github.io/edna/",
+      linkText: "eDNA link"
     },
     {
       title: 'Roonka Burial Site Digitization',
@@ -57,10 +57,10 @@ export function Projects() {
     },
     {
       title: 'Peroxiredoxin Fishtank',
-      description: "Developed features and fixed errors for an interactive simulation of free radical accretion in peroxiredoxin-3 enzyme.",
+      description: "On the development team for an interactive simulation of free radical accretion in peroxiredoxin-3 enzyme. This was VR application was used Jacinda Ardern when visiting our workplace as well and had a brief installation at Te Papa Mueseum.",
       skills: "C#, Unity, Git, HTC Vive, Oculus, Virtual Reality",
-      linkHref: "https://github.com/UoA-eResearch/prx_fishtank",
-      linkText: "Github link"
+      linkHref: "https://www.eresearch.auckland.ac.nz/project/visualising-protein-interaction/",
+      linkText: "Case study link"
     }
   ]
 
