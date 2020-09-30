@@ -10,11 +10,7 @@ export function Miscellaneous() {
         <div className="skills__title">Skills</div>
         <ul>
           <li>
-            HTML, SASS, CSS, Cypress, NodeJS, Python, C#, Terminal, Unity, Git, Blender, Testing, SQL, Virtualization,
-            Bash, Nectar, ServiceNow
-        </li>
-          <li>
-            Public speaking, teaching, dynamic problem solving, multitasking, time management
+            Javascript, Angular, AWS, GraphQL, Python, C#, CI/CD, CSS, HTML, Bash, Git, React, Unity, SQL, Docker
         </li>
         </ul>
       </div>

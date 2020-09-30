@@ -15,7 +15,7 @@ export function Projects() {
   let projectsData = [
     {
       title: 'ResearchHub',
-      description: "Worked on the agile team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front end components. Helped to CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
+      description: "Worked on the agilr development team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front-end components. Helped to CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
       skills: "NodeJS, AWS, Cloud, Rest APIs, Serverless, Jenkins, Angular, Git, Bash, EC2, S3, GraphQL, Contentful, Lambda, API Gateway",
       linkHref: "https://research-hub.auckland.ac.nz/#/home",
       linkText: "ResearchHub link"
@@ -36,21 +36,21 @@ export function Projects() {
     },
     {
       title: 'MyTardis',
-      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-hosted a sprint to create a high fidelity prototype for the front-end design.",
+      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-conducted a sprint to create a high fidelity prototype for the front-end design.",
       skills: "NodeJS, Django, React, front-end, sprint",
       linkHref: "https://github.com/UoA-eResearch/mytardis",
       linkText: "Github link"
     },
     {
       title: 'eDNA Virtual Hub',
-      description: "I developed an interactive web application including a full back end stack with ingestion pipelines. This project was built to visualize ecological biome metrics and patterns using eDNA collected across New Zealand.",
+      description: "I developed an interactive web application including a complete back-end stack with ingestion pipelines. This project was built to visualize ecological biome metrics and patterns using eDNA collected across New Zealand.",
       skills: "NodeJS, Cypress, Git, SQL, Python, Django, Docker, Bash, HTML, CSS, Nectar",
       linkHref: "uoa-eresearch.github.io/edna/",
       linkText: "eDNA link"
     },
     {
       title: 'Roonka Burial Site Digitization',
-      description: "Created Python scripts to programmatically create 3D models without non-manifold geometry to be suitable from 3D volumetric analysis of artefacts in the Roonka aboriginal burial excavation site. Created scripts to calculate points intersecting these volumes in 3D space.",
+      description: "Created Python scripts to programmatically create 3D models without non-manifold geometry to be suitable from 3D volumetric analysis of artefacts in the Roonka aboriginal burial excavation site. Created scripts to calculate points intersecting these volumes in 3D space. Reduced model rigging time from multiple minutes per model to automatically rig hundreds of models in under a second.",
       skills: "Blender, Python, GIS, 3D Modelling, Git",
       linkHref: "https://github.com/UoA-eResearch/roonka_volume_models",
       linkText: "Github link"
