@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './education.module.scss'
+import globalStyles from '../app.module.scss'
 
 export function Education() {
 
   return (
     <div className="section">
-      <div id="education-header" className={styles.education_header}>Education</div>
+      <div id="education-header" className={globalStyles.sectionTitle}>Education</div>
       <div className={styles.education_body}>
         <div className={styles.education}>
           <div className={styles.education___left}>

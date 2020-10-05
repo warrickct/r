@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './projects.module.scss';
+import globalStyles from '../app.module.scss';
 import { Project } from "./project/project.component";
 
 interface ProjectProps {
@@ -73,7 +74,7 @@ export function Projects() {
 
   return (
     <div className={styles.project}>
-      <div id="projects-title" className={styles.project_title}>Projects</div>
+      <div id="projects-title" className={globalStyles.sectionTitle}>Projects</div>
       <div className={styles.project_body}>
         {renderProjects(projectsData)}
       </div>

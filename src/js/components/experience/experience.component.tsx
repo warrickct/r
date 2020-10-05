@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './experience.module.scss'
+import styles from '../app.module.scss';
 import { JobPosition } from "./jobPosition/jobRole.component";
 
 interface Position {
@@ -60,7 +60,7 @@ export function Experience() {
 
   return (
     <div className="section">
-      <div id="experience-header" className={styles.section_title}>Work Experience</div>
+      <div id="experience-header" className={styles.sectionTitle}>Work Experience</div>
       {renderPositions(positionData)}
     </div>
   )

@@ -15,8 +15,17 @@
   }
 }
 
-.app > * {
-  margin: 1rem;
-  border-radius: 5px;
-  padding: 2%;
+// .app > * {
+//   margin: 1rem;
+//   border-radius: 5px;
+//   padding: 2%;
+// }
+
+.sectionTitle {
+  font-family: "Droid Sans Mono";
+  color: black;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+  // background-color: red;
 }

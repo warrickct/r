@@ -1,11 +1,12 @@
 import React from 'react';
 import styles from './miscellaneous.module.scss'
+import globalStyles from '../app.module.scss';
 
 export function Miscellaneous() {
 
   return (
     <div className={styles.misc}>
-      <div id="skills-header" className={styles.misc_header}>Skills && Interests</div>
+      <div id="skills-header" className={globalStyles.sectionTitle}>Skills && Interests</div>
       <div className={styles.misc_title}>
         <div className="skills__title">Skills</div>
         <ul>
