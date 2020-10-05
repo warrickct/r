@@ -12,4 +12,12 @@
 
 .contact_detail {
   margin: auto;
+
+  a:link,a:visited,a:active {
+    color: rgba($color: #000000, $alpha: 0.6);
+  }
 }
+
+// div > .contactLink a {
+//   color: rgba(0, 0, 0, 0.6);
+// }

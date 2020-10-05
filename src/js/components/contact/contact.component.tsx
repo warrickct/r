@@ -5,16 +5,16 @@ export function Contact() {
 
     return (
         <div className={styles.contact}>
-            <div id="mobile-detail" className={styles.contact_detail}>+64 0274376313</div>
-            <div id="email-detail" className={styles.contact_detail}>
-                warrickct@gmail.com
-        </div>
-            <div id="location-detail" className={styles.contact_detail}>
+            <div className={styles.contact_detail}>+64 0274376313</div>
+            <div className={styles.contact_detail}>
+                <a className={styles.contactLink} href="mailto:warrickct@gmail.com">warrickct@gmail.com</a>
+            </div>
+            <div className={styles.contact_detail}>
                 Auckland, New Zealand
         </div>
-            <div id="github-detail" className={styles.contact_detail}>
-                github.com/warrickct
-        </div>
+            <div className={styles.contact_detail}>
+                <a className={styles.contactLink} href="http://github.com/warrickct">github.com/warrickct</a>
+            </div>
         </div>
     )
 }
