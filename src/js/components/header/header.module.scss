@@ -11,29 +11,21 @@
   justify-content: center;
 }
 
-.blinkingCursor {
-  font-weight: bold;
-  -webkit-animation: 1s blink step-end infinite;
-  animation: 1s blink step-end infinite;
+.blink {
+  // height: 80%;
+  // background-color: gray;
+  animation-name: blink;
+  animation-duration: 2000ms;
+  animation-iteration-count: infinite;
+  opacity: 1;
+  font-size: 125%;
 }
 
-@keyframes "blink" {
-  from,
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
   to {
-    color: transparent;
-  }
-  50% {
-    color: black;
+    opacity: 0;
   }
 }
-
-@-webkit-keyframes "blink" {
-  from,
-  to {
-    color: transparent;
-  }
-  50% {
-    color: black;
-  }
-}
-
