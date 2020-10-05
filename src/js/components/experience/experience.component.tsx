@@ -21,7 +21,7 @@ export function Experience() {
         "Amazon Web Services development and solution architecture.",
         "API and microservice development.",
         "Continuous Integration and deployment development.",
-        "React front end development."
+        "Develop React front end development."
       ]
     },
     {
@@ -29,7 +29,7 @@ export function Experience() {
       company: 'The University of Auckland',
       date: '2018 Oct. - Mar. 2020',
       description: [
-        "Full-stack development.",
+        "Full Stack development.",
         "3D application and virtual reality development.",
         "Collaborate with researchers to gather technical requirements and provide technical knowledge.",
         "Lead and assist in software development workshops and training.",
