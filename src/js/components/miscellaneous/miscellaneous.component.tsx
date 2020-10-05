@@ -7,8 +7,8 @@ export function Miscellaneous() {
   return (
     <div className={styles.misc}>
       <div id="skills-header" className={globalStyles.sectionTitle}>Skills && Interests</div>
-      <div className={styles.misc_title}>
-        <div className="skills__title">Skills</div>
+      <div>
+        <div className={styles.misc_title}>Skills</div>
         <ul>
           <li>
             Javascript, Angular, AWS, GraphQL, Python, C#, CI/CD, CSS, HTML, Bash, Git, React, Unity, SQL, Docker
