@@ -14,12 +14,11 @@ export function Experience() {
   let positionData = [
     {
       title: 'eResearch Engagement Specialist',
-      // title: 'Software Engineer',
       company: 'The University of Auckland',
       date: '2020 Mar. - present',
       description: [
         "Angular front end development.",
-        "Amazon Web Services development and solution architecting.",
+        "Amazon Web Services development and solution architecture.",
         "API and microservice development.",
         "Continuous Integration and deployment development.",
         "React front end development."
@@ -34,7 +33,7 @@ export function Experience() {
         "3D application and virtual reality development.",
         "Collaborate with researchers to gather technical requirements and provide technical knowledge.",
         "Lead and assist in software development workshops and training.",
-        "Showcase and represent technical demonstrations of projects created by the organisation.",
+        "Showcase and represent technical demonstrations of projects created by the organization.",
         "Provide technical support to virtual machines and large data storage."
       ]
     },

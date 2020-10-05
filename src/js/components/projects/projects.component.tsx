@@ -16,7 +16,7 @@ export function Projects() {
   let projectsData = [
     {
       title: 'ResearchHub',
-      description: "Worked on the agilr development team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front-end components. Helped to CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
+      description: "Worked on the agile development team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front-end components. Helped to CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
       skills: "NodeJS, AWS, Cloud, Rest APIs, Serverless, Jenkins, Angular, Git, Bash, EC2, S3, GraphQL, Contentful, Lambda, API Gateway",
       linkHref: "https://research-hub.auckland.ac.nz/#/home",
       linkText: "ResearchHub link"
@@ -37,7 +37,7 @@ export function Projects() {
     },
     {
       title: 'MyTardis',
-      description: "I contributed to the front-end development of the Universty of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-conducted a sprint to create a high fidelity prototype for the front-end design.",
+      description: "I contributed to the front-end development of the University of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-conducted a sprint to create a high fidelity prototype for the front-end design.",
       skills: "NodeJS, Django, React, front-end, sprint",
       linkHref: "https://github.com/UoA-eResearch/mytardis",
       linkText: "Github link"
