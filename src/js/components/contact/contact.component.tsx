@@ -5,7 +5,7 @@ export function Contact() {
 
     return (
         <div className={styles.contact}>
-            <div id="mobile-detail" className={styles.contact_detail}>0274376313</div>
+            <div id="mobile-detail" className={styles.contact_detail}>+64 0274376313</div>
             <div id="email-detail" className={styles.contact_detail}>
                 warrickct@gmail.com
         </div>
