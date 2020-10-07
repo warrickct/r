@@ -12,7 +12,7 @@ export function Education() {
           <div className={styles.education___left}>
             <div className={styles.education_title}>University of Auckland</div>
             <div>
-              BSc Major in Computer Science
+              B.Sc. Major in Computer Science
           </div>
           </div>
           <div className={styles.education_details}>

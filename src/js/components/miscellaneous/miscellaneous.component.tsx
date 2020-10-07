@@ -11,7 +11,7 @@ export function Miscellaneous() {
         <div className={styles.misc_title}>Skills</div>
         <ul>
           <li>
-            Javascript, Angular, AWS, GraphQL, Python, C#, CI/CD, CSS, HTML, Bash, Git, React, Unity, SQL, Docker
+            JavaScript, Angular, AWS, GraphQL, Python, C#, CI/CD, CSS, HTML, Bash, Git, React, Unity, SQL, Docker
         </li>
         </ul>
       </div>
@@ -19,7 +19,7 @@ export function Miscellaneous() {
         <div className={styles.misc_title}>Interests</div>
         <ul>
           <li>
-            Photography, fishkeeping, guitar, fitness
+            Photography, guitar, fitness
         </li>
         </ul>
       </div>
