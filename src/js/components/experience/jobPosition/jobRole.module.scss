@@ -20,6 +20,15 @@
     padding-top: 0;
     vertical-align: top;
     width: 100%;
+    
+    ul {
+      width: 100%;
+      padding-right: 0%;
+    }
+
+    li {
+      width: 100%;
+    }
   }
 
   .jobDetail___left {
@@ -31,8 +40,12 @@
   white-space: nowrap;
   flex-basis: 30%;
   color: rgba(0, 0, 0, 0.85);
-  font-size: 105%;
+  font-size: 110%;
   font-weight: bold;
+
+  @media screen and (max-width: 650px) {
+    font-weight: normal;
+  }
 }
 
 .job_company {
