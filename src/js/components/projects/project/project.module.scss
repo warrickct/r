@@ -1,5 +1,8 @@
 .project_link {
   margin-left: 0.5rem;
+  @media screen and (max-width: 650px) {
+    margin-left: 0rem;
+  }
 }
 
 .project_link a:link,
@@ -16,7 +19,7 @@ a:active {
   white-space: nowrap;
   color: rgba(0, 0, 0, 0.85);
   font-weight: bold;
-    font-size: 110%;
+  font-size: 110%;
 
   @media screen and (max-width: 650px) {
     font-weight: normal;
@@ -41,4 +44,7 @@ a:active {
 .project_rowContainer {
   display: flex;
   flex-direction: row;
+  @media screen and (max-width: 650px) {
+    flex-direction: column;
+  }
 }
