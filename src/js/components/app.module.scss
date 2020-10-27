@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Roboto|Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 
-@import './variables.scss';
+@import "./variables.scss";
 
 .app {
   padding: 0% 15%;
@@ -21,7 +21,6 @@
   }
 }
 
-
 .sectionTitle {
   font-family: "Droid Sans Mono";
   color: $base-text-title;
@@ -33,8 +32,23 @@
 // * {
 //   background-color: invert($base-bg-color);
 //   color: invert($base-text-body);
-  
+
 //   .sectionTitle {
 //     color: white;
 //   }
 // }
+
+.printTheme {
+  @page {
+    size: A4;
+    margin: 0;
+  }
+
+  @media print {
+    html,
+    body {
+      width: 210mm;
+      height: 297mm;
+    }
+  }
+}
