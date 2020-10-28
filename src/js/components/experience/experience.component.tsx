@@ -20,7 +20,7 @@ export function Experience() {
         "Worked on a team with 3 other software developers in an agile environment.",
         "Developed to an Angular application.",
         "Migrated a large Angular application to serverless architecture.",
-        "Develop numerous micro-services hosted within AWS cloud infrastructure.",
+        "Develop multiple micro-services hosted within AWS cloud infrastructure.",
         "Set up and optimized CI/CD pipelines.",
         "Programmed contributions to React and Django applications"
         // "Angular front end development.",
