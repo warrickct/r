@@ -1,23 +1,35 @@
 @import url("https://fonts.googleapis.com/css?family=Lato|Roboto|Berkshire+Swash&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Droid+Sans+Mono");
 
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap");
+
 @import "./variables.scss";
 
 .app {
   padding: 0% 15%;
-  font-family: "Droid Sans Mono";
+  // font-family: "Droid Sans Mono";
+  font-family: 'Fira Mono', monospace;
   color: $base-text-body;
-  font-size: 1rem;
-  letter-spacing: 0.002rem;
+  // font-size: 1rem;
+  font-size: normal;
+  // letter-spacing: 0.002rem;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: $breakpoint-mobile) {
     font-size: smaller;
   }
-}
 
-@media screen and (max-width: 1200px) {
-  .app {
+  @media screen and (max-width: 1200px) {
     padding: 0% 5%;
+  }
+
+  @media screen and (min-width: $breakpoint-fullscreen) {
+    padding: 0% 20%;
+  }
+
+  @media print {
+    padding: 0;
+    font-size: 12pt;
+    letter-spacing: normal;
   }
 }
 
@@ -51,6 +63,4 @@
       height: 297mm;
     }
   }
-  
-  color: red;
 }

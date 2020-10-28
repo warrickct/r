@@ -34,11 +34,16 @@ class App extends Component {
     // Pass either web version or print version.
   }
 
+
   render() {
+
+    // let theme = styles.default;
+    let theme = styles.printTheme;
+
     return (
       <div className={styles.app}>
         <Header theme={styles.printTheme} />
-        <Contact />
+        <Contact theme={styles.printTheme} />
         <Experience />
         <Projects />
         <Education />
