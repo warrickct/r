@@ -22,12 +22,14 @@ export function Experience() {
         "Migrated a large Angular application to serverless architecture.",
         "Developed multiple micro-services hosted within AWS cloud infrastructure.",
         "Set up and optimized CI/CD pipelines.",
-        "Programmed contributions to React and Django applications"
+        "Programmed contributions to React and Django applications",
         // "Angular front end development.",
         // "Amazon Web Services development and solution architecture.",
         // "API and microservice development.",
         // "Continuous Integration and deployment development.",
         // "Develop React front end development."
+        "Increase deployment pipeline speeds by 45%.",
+        "Increased test coverage by 30%."
       ]
     },
     {
