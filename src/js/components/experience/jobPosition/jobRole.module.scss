@@ -47,12 +47,10 @@
   }
 }
 
-.job_company {
+.job_company, .job_date {
   color: rgba(0, 0, 0, 0.8);
-}
-
-.job_date {
-  color: rgba(0, 0, 0, 0.7);
+  font-weight: 500;
+  white-space: pre;
 }
 
 .job_description {
