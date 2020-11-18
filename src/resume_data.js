@@ -23,7 +23,7 @@ export const resumeData = {
             // title: 'Solutions Analyst',
             title: 'Special Project Application Developer',
             company: 'The University of Auckland',
-            date: '2018 Oct. - Mar. 2020',
+            date: '2018 Oct. - 2020 Mar.',
             description: [
                 "Implemented fullstack applications solutions for researchers.",
                 "Implemented features and solutions for 3D and virtual reality applications.",
