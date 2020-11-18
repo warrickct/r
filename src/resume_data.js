@@ -25,9 +25,9 @@ export const resumeData = {
             company: 'The University of Auckland',
             date: '2018 Oct. - Mar. 2020',
             description: [
-                "Full Stack development.",
-                "3D application and virtual reality development.",
-                "Designed fit for purpose software applications for research projects.",
+                "Implemented fullstack applications solutions for researchers.",
+                "Implemented features and solutions for 3D and virtual reality applications.",
+                "Designed custom software applications and solutions for research projects.",
                 "Lead and assist in software development workshops and training as required.",
                 "Showcase and represent technical demonstrations of projects created by the organization.",
                 "Provide technical support to virtual machines and large data storage."
