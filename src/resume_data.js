@@ -9,7 +9,7 @@ export const resumeData = {
             description: [
                 "Web application focused software development position.",
                 "Worked in an agile environment alongside 3 other developers.",
-                "Presented project achievements and progress at fortnightly steering committee meetings",
+                "Presented project achievements and progress at fortnightly steering committee meetings.",
                 "Implemented multiple improvements to a fullstack Angular application.",
                 "Migrated a large Angular application to a serverless architecture.",
                 "Designed and implemented multiple micro-services hosted within AWS cloud infrastructure.",
