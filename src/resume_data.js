@@ -48,28 +48,28 @@ export const resumeData = {
     projectsList: [
         {
             title: 'ResearchHub - Web portal for Researchers',
-            description: "Worked on the agile development team for the ResearchHub migrating functionality to a cloud architecture. Made alterations to front-end components. Helped to build the CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
+            description: "I developed in an agile development team for the ResearchHub migrating functionality to a cloud architecture. Created Optimizations and implemented improvements to both front-end and CI/CD pipeline for development operations. Increased unit test coverage from 50% to 80%.",
             skills: "NodeJS, AWS, Cloud, Rest APIs, Serverless, Jenkins, Angular, Git, Bash, EC2, S3, GraphQL, Contentful, Lambda, API Gateway",
             linkHref: "https://research-hub.auckland.ac.nz/#/home",
             linkText: "ResearchHub link"
         },
         {
         title: '2FAb - Chrome Webdriver on AWS Microservice',
-            description: "Created a microservice hosted on AWS Lambda to using Puppeteer retrieve OAuth2.0 tokens. This allowed us to automate our workflows and create integration tests for the ResearchHub which were previously done manually making a GET request.",
+            description: "I architectured and implemented a microservice hosted on AWS Lambda to using Puppeteer retrieve OAuth2.0 tokens. This allowed us to automate our workflows and create integration tests for the ResearchHub which were previously done manually making a GET request.",
             skills: "NodeJS, AWS, APIs, Puppeteer, Serverless, ServiceNow, API Gateway",
             linkHref: "https://github.com/UoA-eResearch/oauth-2fa-bypass",
             linkText: "GitHub link"
         },
         {
             title: 'ServerlessNow - ServiceNow Ticket Processor AWS Microservice',
-            description: "Created an AWS Lambda function intercept ServiceNow requests. The service modifies structure and augments with AWS Cognito user pool information before forwarding the ticket.",
+            description: "I architectured and implemented an AWS Lambda function intercept ServiceNow requests. The service modifies structure and augments with AWS Cognito user pool information before forwarding the ticket.",
             skills: "NodeJS, AWS, APIs, Serverless, ServiceNow, API Gateway",
             linkHref: "https://github.com/UoA-eResearch/hub-stack/tree/master/serverless-now",
             linkText: "GitHub link"
         },
         {
             title: 'MyTardis - Search Page for Research Instrument Data',
-            description: "I contributed to the front-end development of the University of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-conducted a sprint to create a high fidelity prototype for the front-end design.",
+            description: "I Implemented features front-end development of the University of Auckland's Instrument Data platform which is a hybrid Django and React front-end. I also co-lead a design sprint to create a high fidelity prototype for the front-end design.",
             skills: "NodeJS, Django, React, front-end, sprint",
             linkHref: "https://github.com/UoA-eResearch/mytardis",
             linkText: "GitHub link"
@@ -83,14 +83,14 @@ export const resumeData = {
         },
         {
             title: 'Roonka - Automated 3D archaeological Model Generator',
-            description: "Created Python scripts to programmatically create 3D models without non-manifold geometry to be suitable from 3D volumetric analysis of artefacts in the Roonka aboriginal burial excavation site. Created scripts to calculate points intersecting these volumes in 3D space. Reduced model rigging time from multiple minutes per model to automatically rig hundreds of models in under a second.",
+            description: "I developed Python scripts to programmatically create 3D models without non-manifold geometry to be suitable from 3D volumetric analysis of artefacts in the Roonka aboriginal burial excavation site. I developed scripts to calculate points intersecting these volumes in 3D space. I was able to reduce manual model creation time from multiple minutes per model to automatically rig hundreds of models in under a second.",
             skills: "Blender, Python, GIS, 3D Modelling, Git",
             linkHref: "https://github.com/UoA-eResearch/roonka_volume_models",
             linkText: "GitHub link"
         },
         {
             title: 'Prx Fishtank - Virtual Reality Human Body Application',
-            description: "On the development team for an interactive simulation of free radical accretion in peroxiredoxin-3 enzyme. This VR application was used by Jacinda Ardern when visiting our workplace and had a brief installation at Te Papa Museum.",
+            description: "I implemented features and improvements for an interactive simulation of polymers in the human body. This VR application was used by Jacinda Ardern when visiting our workplace and had a brief installation at Te Papa Museum.",
             skills: "C#, Unity, Git, HTC Vive, Oculus, Virtual Reality",
             linkHref: "https://www.eresearch.auckland.ac.nz/project/visualising-protein-interaction/",
             linkText: "Case study link"
